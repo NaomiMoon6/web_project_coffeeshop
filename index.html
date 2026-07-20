@@ -76,7 +76,33 @@
         </section>
 
         <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <div class="reservation__form">
+            <form class="form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Nome:</label>
+                <input id="name" type="text" class="form__input" placeholder="Nome" required>
 
+                <label for="guests" class="form__label">Número de convidados:</label>
+                <input id="guests" type="number" class="form__input" placeholder="1-8" required>
+
+                <label for="date" class="form__label">Data e Hora:</label>
+                <input id="date" type="datetime-local" class="form__input" required>
+
+                <label for="email" class="form__label">Seu e-mail:</label>
+                <input id="email" type="email" class="form__input" placeholder="email@email.com" required>
+              </fieldset>
+
+              <button type="submit" class="form__button">
+                Reservar uma mesa
+              </button>
+              <label for="email" class="form__label form__label_centered">
+                <input id="check" type="checkbox" class="form__checkbox" required>
+                Eu concordo com os termos de uso
+              </label>
+              
+            </form>
+          </div>
         </section>
       </main>
 

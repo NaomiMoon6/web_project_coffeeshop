@@ -38,6 +38,7 @@
 
 .header__title{
   max-width: 790px;
+  margin: 0;
   margin-top: 183px;
   margin-left: 80px;
 
@@ -144,6 +145,7 @@
 
 .recipes__title{
   max-width: 580px;
+  margin: 0;
   margin-top: 0;
   margin-left: 80px;
 
@@ -184,4 +186,112 @@
 .recipes__iframe{
   width: 480px;
   height: 273px;
+}
+
+.reservation{
+  background-color: #D9E7FF;
+  background-image: url("../images/background_reservation.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 720px;
+  max-height: 800px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.reservation__title{
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+.reservation__form{
+  margin-bottom: 120px;
+}
+
+.form{
+  max-width: 385px;
+  padding: 0;
+}
+
+.form__fieldset{
+  border: none;
+  padding: 0;
+}
+
+.form__label{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__label_centered{
+  display: flex;
+  justify-content: center;
+}
+
+.form__input{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15px;
+  margin: 0;
+  margin-bottom: 32px;
+  margin-top: 8px;
+  max-height: 60px;
+  max-width: 385px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-style: none;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__checkbox{
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.form__checkbox:checked{
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 2px;
+  background-color: #2F80ED;
+}
+
+.form__checkbox:checked::after{
+  content: url(../images/check.svg);
+}
+
+.form__button{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  border-radius: 4px;
+  background-color: #2f80ed;
+  border: none;
+  color: #FFFFFF;
+  max-width: 385px;
+  height: 60px;
+  display: block;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.form__button:hover {
+  opacity: 70%;
 }
