@@ -1,0 +1,79 @@
+.header{
+  background-color: #FFFFFF;
+  background-image: url("../images/background_header.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__title{
+  max-width: 790px;
+  margin: 0;
+  margin-top: 183px;
+  margin-left: 80px;
+
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.header__span-accent{
+  font-family: "Noto Serif", Times;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px ;
+  line-height: 72px;
+  color : #2F80ED;
+  display: block;
+}
+
+.header__description{
+  max-width: 683px;
+  margin-top: 20px;
+  margin-left: 80px;
+
+  font-family: "Noto Serif", Times;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__footer{
+  display: flex;
+  justify-content: space-between;
+  margin: auto 80px 40px;
+}
+
+.header__schedule{
+  flex-direction: column;
+  margin: auto auto 0 0;
+}
+
+.header_address{
+  margin: auto 0 0 auto;
+  align-content: end;
+}
+
+.header__paragraph{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin: auto 0;
+}
+
+.header__image{
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
