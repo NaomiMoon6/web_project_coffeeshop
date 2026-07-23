@@ -4,17 +4,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 720px;
-  max-height: 800px;
   color: #FFFFFF;
-  padding-top: 100px;
+  padding: 100px 80px 215px;
 }
 
 .recipes__title{
   max-width: 580px;
   margin: 0;
-  margin-top: 0;
-  margin-left: 80px;
 
   font-weight: 500;
   font-size: 44px;
@@ -24,7 +20,6 @@
 .recipes__subtitle{
   max-width: 438px;
   margin-top: 24px;
-  margin-left: 80px;
   margin-bottom: 80px;
   
   font-family: "Noto Serif", Times;
@@ -38,7 +33,6 @@
   gap: 40px;
   width: fit-content;
   margin: auto;
-  margin-bottom: 215px;
 }
 
 .recipes__video-caption{

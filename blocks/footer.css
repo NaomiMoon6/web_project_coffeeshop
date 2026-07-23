@@ -3,6 +3,7 @@
   color: #FFFFFF;
   position: relative;
   overflow: hidden;
+  padding: 60px 80px;
 }
 
 .footer__circle{
@@ -18,7 +19,7 @@
 .footer__content{ 
   position: relative;
   z-index: 1;
-  margin: 60px 80px 108px;
+  margin-bottom: 108px;
   display: flex;
   justify-content: space-between;
 }
@@ -63,7 +64,6 @@
 }
 
 .footer__copyright{
-  margin: 0 0 60px 80px;
   font-size: 16px; 
   line-height: 20px;
 }

@@ -6,8 +6,7 @@
 .nav__logo {
   width: 105px;
   height: 39px;
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: -50px; /* No design a logo fica mais a esquerda que o resto, sem essa margem ela fica rente ao título, descrição e footer */
 }
 
 .nav__links {
@@ -15,8 +14,6 @@
   column-gap: 20px;
   list-style-type: none;
   padding: 0;
-  margin-top: 30px;
-  margin-right: 80px;
 }
 
 .nav__link {

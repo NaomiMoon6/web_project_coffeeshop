@@ -10,13 +10,13 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  padding: 30px 80px 40px;
 }
 
 .header__title{
   max-width: 790px;
   margin: 0;
   margin-top: 183px;
-  margin-left: 80px;
 
   font-weight: 500;
   font-size: 58px;
@@ -37,7 +37,6 @@
 .header__description{
   max-width: 683px;
   margin-top: 20px;
-  margin-left: 80px;
 
   font-family: "Noto Serif", Times;
   font-style: normal;
@@ -49,12 +48,7 @@
 .header__footer{
   display: flex;
   justify-content: space-between;
-  margin: auto 80px 40px;
-}
-
-.header__schedule{
-  flex-direction: column;
-  margin: auto auto 0 0;
+  margin-top: auto
 }
 
 .header_address{

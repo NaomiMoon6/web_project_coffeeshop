@@ -4,9 +4,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 720px;
-  max-height: 800px;
   padding-top: 100px;
+  padding-bottom: 120px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -18,8 +17,4 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 auto 80px;
-}
-
-.reservation__form{
-  margin-bottom: 120px;
 }
