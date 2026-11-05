@@ -1,58 +1,40 @@
-# Triple Espresso
+# ☕ Triple Espresso
 
-### Projeto do Sprint 4 do curso de Desenvolvimento Web da TripleTen 
+> **Projeto 3 do Bootcamp** de Desenvolvedor Web da **TripleTen**.
 
----
-
-<br>
-Desenvolvida durante uma semana, essa página esboça um design minimalista e moderno, simulando uma cafeteria fictícia. Foram usados HTML e CSS para fazer o design, além da implantação da métodologia BEM para organizar os blocos, elementos e modifiers e seus respectivos arquivos.
-
-<br>
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![BEM Methodology](https://img.shields.io/badge/BEM-methodology-blue?style=for-the-badge)
 
 ---
 
-# Melhorias
+## 📌 Sobre o Projeto
 
-Numa hipotética implantação desse site em uma cafeteria real, acho que seria ideal um cardápio que mostre os produtos disponíveis e, se estiver dentro das capacidades do estabelecimento, permita o cliente fazer um pedido para entrega a domicílio.
-
----
-
-# Detalhes do Projeto
-
-### Nav
-Contém 3 botões de navegação que levam as seções específicas referentes:
-
-- Receitas
-- Reservas
-- Contatos
-
-Além da logo do site.
+O **Triple Espresso** é uma página de destino (_landing page_) com design minimalista e moderno, desenvolvida para simular a presença online de uma cafeteria fictícia. O foco principal do desenvolvimento foi a organização modular do CSS utilizando a metodologia **BEM (Block Element Modifier)**.
 
 ---
 
-### Header
-Dispõe de um título impositório porem tranquilo e uma imagem da aconchegante cafeteria.
+## 🛠️ Tecnologias e Metodologias Utilizadas
+
+- **HTML5:** Estruturação semântica das seções.
+- **CSS3:** Estilização moderna, responsividade e inclusão de mídias incorporadas (`iframe`).
+- **Metodologia BEM:** Organização modular e escalável de arquivos e classes CSS.
+- **Normalize.css:** Padronização dos estilos entre diferentes navegadores.
 
 ---
 
-### Receitas
-Utiliza iframes para anexar vídeos do youtube sobre preparo de cafés.
+## 🔍 Seções e Funcionalidades
 
----
+- **Nav:** Barra de navegação com a logo e links para as seções _Receitas_, _Reservas_ e _Contatos_.
+- **Header:** Cabeçalho com título de impacto e imagem de capa representando a cafeteria.
+- **Receitas:** Seção com vídeos do YouTube incorporados via `iframe` sobre técnicas de preparo de café.
+- **Reservas:** Formulário estilizado para agendamento e reserva de mesas.
+- **Footer:** Informações de contato, links sociais e créditos de autoria.
 
-### Reservas
-Possui um formulário onde o usuário pode cadastrar-se para reservar uma mesa.
+## 📁 Estrutura de Arquivos
 
----
-
-### Footer
-Possui contatos e créditos de autoria.
-
----
-
-# Estrutura de Arquivos
-```
-PetCare/
+```text
+triple-espresso/
 ├── README.md
 ├── index.html
 ├── favicon.ico
@@ -72,11 +54,11 @@ PetCare/
 │   ├── recipes.css
 │   └── reservation.css
 │
-└── images/ (Imagens)
+└── images/
 ```
----
 
-# Créditos
+## 🌐 Link de Acesso
 
-### Naomi Marra
-Desenvolvedora web.
+Você pode acessar o projeto através do link do GitHub Pages:
+
+[🔗 Visualizar o Projeto Online (GitHub Pages)](https://naomimoon6.github.io/web_project_coffeeshop/)
